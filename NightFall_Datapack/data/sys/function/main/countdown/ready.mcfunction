@@ -35,6 +35,8 @@
 #ゲームモード変更
     execute if score $countdown Timer matches 100 run gamemode survival @a[scores={Joined=1}]
     execute if score $countdown Timer matches 100 run gamemode spectator @a[scores={Joined=0}]
+#難易度変更
+    difficulty normal
 #日の変更
     execute if score $countdown Timer matches 100 run function sys:main/change_time/day
 #ゲームの状態変更

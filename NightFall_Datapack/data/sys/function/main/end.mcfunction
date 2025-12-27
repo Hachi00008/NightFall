@@ -8,6 +8,8 @@
     title @a subtitle ["",{text:"Winner："},{selector:"@a[tag=winner]",color:"green"}]
 #演出
     execute as @a at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 0.5 1.0
+#難易度変更
+    difficulty peaceful
 #進捗解除
     schedule function sys:main/get_advancement 5s
 #リセット
