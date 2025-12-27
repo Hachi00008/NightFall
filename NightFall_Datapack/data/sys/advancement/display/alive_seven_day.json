@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "7日の生存",
+            "color": "red"
+        },
+        "description": "NightFallで7日間生存する",
+        "icon": {
+            "id":"wither_skeleton_skull",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "hidden": false,
+        "show_toast": true
+    },
+    "parent": "sys:display/alive_five_day",
+    "criteria": {
+        "a":{
+            "trigger": "impossible"
+        }
+    }
+}

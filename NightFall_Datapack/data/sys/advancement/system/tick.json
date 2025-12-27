@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "player_tick":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "sys:player/tick"
+    }
+}

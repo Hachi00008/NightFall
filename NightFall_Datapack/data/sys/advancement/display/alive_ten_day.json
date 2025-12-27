@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "10日の生存",
+            "color": "gray",
+            "bold": true
+        },
+        "description": "お前は人か?...",
+        "frame": "challenge",
+        "icon": {
+            "id": "nether_star",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "announce_to_chat": true,
+        "hidden": true,
+        "show_toast": true
+    },
+    "parent": "sys:display/alive_seven_day",
+    "criteria": {
+        "a":{
+            "trigger": "impossible"
+        }
+    }
+}

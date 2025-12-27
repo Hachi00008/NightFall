@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "夜の生存者",
+        "description": "NightFallで勝利する",
+        "icon": {
+            "id": "totem_of_undying",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "goal",
+        "announce_to_chat": true,
+        "hidden": false,
+        "show_toast": true
+    },
+    "parent": "sys:display/alive_seven_day",
+    "criteria": {
+        "a":{
+            "trigger": "impossible"
+        }
+    }
+}

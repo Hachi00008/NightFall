@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "5日の生存",
+            "color": "yellow"
+        },
+        "description": "NightFallで5日間生存する",
+        "icon": {
+            "id":"ender_eye",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "frame": "task",
+        "announce_to_chat": true,
+        "hidden": false,
+        "show_toast": true
+    },
+    "parent": "sys:display/alive_three_day",
+    "criteria": {
+        "a":{
+            "trigger": "impossible"
+        }
+    }
+}

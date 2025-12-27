@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "NightFall",
+        "description": "時間が切り替わるpvpゲーム",
+        "icon": {
+            "id": "bedrock",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        },
+        "background": "block/bedrock",
+        "frame": "task",
+        "announce_to_chat": false,
+        "hidden": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "root":{
+            "trigger": "tick"
+        }
+    }
+}

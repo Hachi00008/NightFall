@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "death":{
+            "trigger": "entity_killed_player"
+        }
+    },
+    "rewards": {
+        "function": "sys:player/death/check"
+    }
+}
