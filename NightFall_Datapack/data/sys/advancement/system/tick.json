@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "sys:player/tick"
+        "function": "sys:player/tic"
     }
 }
